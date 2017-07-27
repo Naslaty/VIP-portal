@@ -33,7 +33,7 @@ package fr.insalyon.creatis.vip.social.server.dao;
 
 import fr.insalyon.creatis.vip.core.server.dao.DAOException;
 import fr.insalyon.creatis.vip.core.server.dao.mysql.PlatformConnection;
-import fr.insalyon.creatis.vip.social.server.dao.mysql.GroupMessageData;
+import fr.insalyon.creatis.vip.social.server.dao.mysql.GroupMessageDataTest;
 import fr.insalyon.creatis.vip.social.server.dao.mysql.MessageData;
 import org.apache.log4j.Logger;
 
@@ -101,6 +101,6 @@ public class MySQLDAOFactory extends SocialDAOFactory {
 
     @Override
     public GroupMessageDAO getGroupMessageDAO() throws DAOException {
-        return new GroupMessageData();
+        return new GroupMessageDataTest();
     }
 }

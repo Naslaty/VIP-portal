@@ -50,7 +50,7 @@ import org.apache.log4j.Logger;
  */
 public class GroupMessageData implements GroupMessageDAO {
 
-    private static final Logger logger = Logger.getLogger(GroupMessageData.class);
+    private static final Logger logger = Logger.getLogger(GroupMessageDataTest.class);
     private Connection connection;
 
     public GroupMessageData() throws DAOException {
